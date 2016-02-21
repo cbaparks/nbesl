@@ -972,9 +972,10 @@ button {
     font-family: "latoregular";
     letter-spacing: 1px;
     position: absolute;
-    top: 20px;
+    /*top: 20px;*/
     width: 100%;
-    z-index: 2
+    z-index: 2;
+    left: 0px;
 }
 
 .mainNav .logo {
@@ -2579,10 +2580,10 @@ button {
 }
 
 .genericPromos {
-    height: 560px;
-    overflow: hidden;
+    /*height: 560px;*/
+   /* overflow: hidden;
     position: relative;
-    width: 100%
+    width: 100%*/
 }
 
 .genericPromos .container {
@@ -2596,12 +2597,12 @@ button {
 }
 
 .genericPromos .promo {
-    border-bottom: 1px solid #e5e5e5;
+/*    border-bottom: 1px solid #e5e5e5;
     float: left;
     height: 440px;
     position: relative;
     text-decoration: none;
-    width: 400px
+    width: 400px*/
 }
 
 .genericPromos .promo.promo2,
@@ -2818,7 +2819,7 @@ button {
         width: 300px
     }
     .genericPromos .promo.promo1 {
-        float: right
+        /*float: right*/
     }
     .genericPromos .promo.promo2 {
         float: none;
@@ -3244,9 +3245,9 @@ button {
 }
 
 .home-whatWeDo {
-    height: 560px;
+/*    height: 560px;
     overflow: hidden;
-    position: relative
+    position: relative*/
 }
 
 .home-whatWeDo .square-left {
@@ -3286,12 +3287,12 @@ button {
 
 .home-whatWeDo .content,
 .home-whatWeDo .promos {
-    float: left
+    /*float: left*/
 }
 
 .home-whatWeDo .content {
-    padding: 0 40px;
-    width: 640px
+    /*padding: 0 40px;*/
+    /*width: 640px*/
 }
 
 .home-whatWeDo .content h3 {
@@ -3380,25 +3381,25 @@ button {
 
 @media screen and (max-width:1279px) {
     .home-whatWeDo .content {
-        padding-right: 20px;
-        width: 390px
+        /*padding-right: 20px;*/
+        /*width: 390px*/
     }
     .home-whatWeDo .content h3 {
         margin-bottom: 12px
     }
     .home-whatWeDo .promos {
-        padding-top: 77px;
-        width: 580px
+        /*padding-top: 77px;*/
+        /*width: 580px*/
     }
     .home-whatWeDo .promos .promo.promo2 {
-        margin-left: 20px
+        /*margin-left: 20px*/
     }
 }
 
 @media screen and (max-width:1024px) {
     .home-whatWeDo .container {
-        padding-left: 80px;
-        padding-right: 80px
+        /*padding-left: 80px;*/
+        /*padding-right: 80px*/
     }
     .home-whatWeDo .square-left {
         margin-left: -1374px;
@@ -3408,13 +3409,13 @@ button {
         margin-left: 595px
     }
     .home-whatWeDo .content {
-        padding: 0;
-        width: 60%
+        /*padding: 0;*/
+        /*width: 60%*/
     }
     .home-whatWeDo .promos {
-        float: right;
-        padding: 0;
-        width: 40%
+        /*float: right;*/
+        /*padding: 0;*/
+        /*width: 40%*/
     }
     .home-whatWeDo .promos .promo {
         float: right;
@@ -3446,11 +3447,11 @@ button {
 
 @media screen and (max-width:768px) {
     .home-whatWeDo .container {
-        padding-left: 40px;
-        padding-right: 40px
+        /*padding-left: 40px;*/
+        /*padding-right: 40px*/
     }
     .home-whatWeDo .content {
-        width: 100%
+        /*width: 100%*/
     }
     .home-whatWeDo .content h3 {
         font-size: 35px
@@ -3498,7 +3499,7 @@ button {
         display: block
     }
     .home-whatWeDo .content {
-        padding: 35px 0 20px
+        /*padding: 35px 0 20px*/
     }
     .home-whatWeDo .content h3 {
         font-size: 21px
@@ -3561,7 +3562,7 @@ button {
     color: #fff;
     margin-top: 73px;
     padding-left: 40px;
-    width: 485px
+    /*width: 485px*/
 }
 
 .home-paidForGreen .content h3 {
@@ -3577,8 +3578,8 @@ button {
     font-size: 17px;
     line-height: 30px;
     padding: 0;
-    margin: 0 0 14px 0;
-    width: 400px
+    /*margin: 0 0 14px 0;*/
+    /*width: 400px*/
 }
 
 .home-paidForGreen .content .btn {
@@ -3632,13 +3633,13 @@ button {
 
 @media screen and (max-width:1024px) {
     .home-paidForGreen .content {
-        margin-top: 93px;
-        padding-left: 0
+        /*margin-top: 93px;*/
+        /*padding-left: 0*/
     }
     .home-paidForGreen .content h3 {
         font-size: 41px;
         line-height: 43px;
-        margin-bottom: 20px
+        /*margin-bottom: 20px*/
     }
     .home-paidForGreen .content p {
         font-size: 16px;
@@ -3664,7 +3665,7 @@ button {
     }
     .home-paidForGreen .content {
         margin-top: 34px;
-        width: 100%
+        /*width: 100%*/
     }
     .home-paidForGreen .content h3 {
         font-size: 24px;
@@ -3674,7 +3675,7 @@ button {
     .home-paidForGreen .content p {
         font-size: 13px;
         line-height: 20px;
-        width: auto
+        /*width: auto*/
     }
     .home-paidForGreen .shard {
         display: none
@@ -4016,7 +4017,7 @@ button {
     color: #fff;
     padding: 180px 0 0;
     position: relative;
-    width: 500px;
+    /*width: 500px;*/
     z-index: 2
 }
 
@@ -4202,8 +4203,8 @@ button {
         height: 320px
     }
     .whoWeArePage .becomePartnerMap .content {
-        padding-top: 40px;
-        width: 100%
+        /*padding-top: 40px;*/
+        /*width: 100%*/
     }
     .whoWeArePage .becomePartnerMap .content h3 {
         font-size: 21px;
@@ -4514,10 +4515,10 @@ button {
 
 .whatWeDoPage .specialistTraining .content {
     color: #fff;
-    margin-left: 480px;
-    padding: 155px 0 0;
+    /*margin-left: 480px;*/
+    /*padding: 155px 0 0;*/
     position: relative;
-    width: 500px;
+    /*width: 500px;*/
     z-index: 2
 }
 
@@ -4655,8 +4656,8 @@ button {
         font-size: 14px
     }
     .whatWeDoPage .specialistTraining .content {
-        margin-left: 350px;
-        padding-top: 190px
+        /*margin-left: 350px;*/
+        /*padding-top: 190px*/
     }
 }
 
@@ -4672,7 +4673,7 @@ button {
         width: 100%
     }
     .whatWeDoPage .specialistTraining .content {
-        margin-left: 150px
+        /*margin-left: 150px*/
     }
 }
 
@@ -4736,7 +4737,7 @@ button {
     .whatWeDoPage .specialistTraining .content {
         margin-left: 0;
         padding-top: 35px;
-        width: 100%
+        /*width: 100%*/
     }
     .whatWeDoPage .specialistTraining .content h3 {
         font-size: 21px;
@@ -5807,10 +5808,10 @@ button {
 }
 
 .whatWeDoRange .productsList .productItem .content {
-    float: left;
-    margin-left: -80px;
+    /*float: left;*/
+    /*margin-left: -80px;
     margin-right: -80px;
-    width: 960px
+    width: 960px*/
 }
 
 .whatWeDoRange .productsList .productItem .content h4 {
@@ -5819,12 +5820,12 @@ button {
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 22px;
-    margin: 0 0 9px 0;
+    /*margin: 0 0 9px 0;*/
     text-transform: uppercase
 }
 
 .whatWeDoRange .productsList .productItem .content p {
-    margin: 0 0 14px 0
+    /*margin: 0 0 14px 0*/
 }
 
 .whatWeDoRange .productsList .productItem .content ul {
@@ -5929,7 +5930,7 @@ button {
     }
     .whatWeDoRange .productsList .productItem .content {
         margin-left: 0;
-        width: 610px
+        /*width: 610px*/
     }
     .whatWeDoRange .productsList .productItem .contentSide {
         width: 48%
@@ -5941,7 +5942,7 @@ button {
 
 @media screen and (max-width:1024px) {
     .whatWeDoRange .productsList .productItem .content {
-        width: 600px
+        /*width: 600px*/
     }
 }
 
